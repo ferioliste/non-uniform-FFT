@@ -9,7 +9,7 @@ with $0\leq\gamma\leq 1/2$, and integer frequencies $\omega_j = j$ for $j=0,...,
 ```math
 f_j = \sum_{k=0}^{N-1} c_k e^{-2\pi i x_k \omega_j} \qquad 0\leq j\leq N-1,
 ```
-by contructing a low rank approximation of the transformation matrix making use of the FFT algorithm. Given a working precision $0<\varepsilon<1$, this allows to achieve a cost of $\mathcal O(N \log N \log(1/\varepsilon) / \log\log(1/\varepsilon))$ in the Chebyshev case and of $\mathcal O(N \log N \log(1/\varepsilon))$ when using a Taylor expansion. In general, this is better that $\mathcal O(N^2)$ of the naive implementation.
+by contructing a low rank approximation of the transformation matrix making use of the FFT algorithm. Given a working precision $0<\varepsilon<1$, this allows to achieve a cost of $\mathcal O(N\ \log N \ \log(1/\varepsilon) / \log\log(1/\varepsilon))$ in the Chebyshev case and of $\mathcal O(N\ \log N\ \log(1/\varepsilon))$ when using a Taylor expansion. In general, this is better that $\mathcal O(N^2)$ of the naive implementation.
 
 ## Files in the Repository
 
